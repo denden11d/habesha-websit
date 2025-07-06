@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habeshazon.com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f2f2; /* Background color from the Amazon screenshot */
+        }
+        .header {
+            background-color: yellow;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+        .header .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+        .header .search-bar {
+            flex-grow: 1;
+            margin: 0 20px;
+            display: flex;
+        }
+        .header .search-bar input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 4px 0 0 4px;
+        }
+        .header .search-bar button {
+            background-color: #febd69;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+        }
+        .header .nav-links {
+            display: flex;
+            align-items: center;
+        }
+        .header .nav-links a {
+            color: black;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 14px;
+        }
+        .navbar {
+            background-color: #232f3e;
+            padding: 8px 20px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .navbar a {
+            color:  white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-size: 14px;
+        }
+        
+
+        .main-content {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .section-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .section-card h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        .section-card .image-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .section-card .image-grid img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .section-card .single-image img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+        .section-card a {
+            display: block;
+            margin-top: 15px;
+            color: #007185;
+            text-decoration: none;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="https://www.habeshazon.com" class="logo"style="font-size: 50px; color: white shine; font-family: 
+'Playfair Display', serif; font-weight: 700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Habeshazon.com</a>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Habeshazon">
+            <button>🔎</button>
+        </div>
+        <div class="nav-links">
+            <a href="https://www.habeshazon.com/en">EN</a>
+            <a href="https://www.habeshazon.com/account">Hello, Sign in Account & Lists ▼</a>
+            <a href="https://www.habeshazon.com/orders">Returns & Orders</a>
+            <a href="https://www.habeshazon.com/cart">🛒 Cart</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <a href="https://www.habeshazon.com/all">☰ All</a>
+        <a href="https://www.habeshazon.com/deals">Today's Deals</a>
+        <a href="https://www.habeshazon.com/registry">Registry</a>
+        <a href="https://www.habeshazon.com/primevideo">Prime Video</a>
+        <a href="https://www.habeshazon.com/giftcards">Gift Cards</a>
+        <a href="https://www.habeshazon.com/customerservice">Customer Service</a>
+        <a href="https://www.habeshazon.com/sell">Sell</a>
+    </nav>
+
+   
+
+    <div class="main-content">
+        <div class="section-card">
+            
+            <div class="image-grid">
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\hom electronics\seat.jpg" alt="Cleaning Tools">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Cleaning Tools</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\hom electronics\fun.jpg" alt="Home Storage">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Home Storage</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\kids toys and school material\kids.jpg" alt="Home Decor">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Home Decor</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\OIF.jpeg" alt="Bedding">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Bedding</p>
+                </div>
+            </div>
+            <a href="https://www.habeshazon.com/home-essentials" style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Shop all home essentials</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">For women</h3>
+            <div class="single-image">
+                <img src="perferyom and locion/women.webp" alt="women">
+            </div>
+           
+			<a href="https://www.amazon.com/" style="font-size: 45px; color: yellow; 
+			font-family: 'Playfair Display', serif; font-weight: 700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Amazon</a>
+			<a href="linker/index.html"  alt="index" style="font-size: 45px; color: red; 
+			font-family: 'Playfair Display', serif; font-weight: 700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">women</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Top categories in Kitchen appliances</h3>
+            <div class="image-grid">
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\hom electronics\bermuz.jpg" alt="Cooker">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Cooker</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\hom electronics\xomakt.jpg"  alt="Coffee">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Coffee</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\hom electronics\soket.jpg"  alt="Pots and Pans">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Pots and Pans</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\hom electronics\bkerixmak.jpg"  alt="Kettles">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Kettles</p>
+                </div>
+            </div>
+            <a href="https://www.habeshazon.com/kitchen-appliances">Shop all kitchen appliances</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Shop Fashion for less</h3>
+            <div class="image-grid">
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\bag\bag.webp" alt="Jeans under $50">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Bags $ Scarfs</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\Luxury Watches\OIF.jpeg"  alt="Tops under $25">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Luxury Watches</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\Luxury Watches\redwatche.webp"  alt="Dresses under $30">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Dresses under $30</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\Luxury Watches\earing.webp">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Earing</p>
+                </div>
+            </div>
+            <a href="https://www.habeshazon.com/fashion">See more</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Men's Style</h3>
+            <div class="single-image">
+                <img src="C:\Users\LENOVO\Desktop\online bussiness\OIP (4).webp" alt="Men's Casual Shirt">
+            </div>
+            <a href="https://www.habeshazon.com/mens-fashion" style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Shop men's fashion</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Baby Wear</h3>
+            <div class="single-image">
+                <img src="C:\Users\LENOVO\Desktop\online bussiness\baby clothe\baby.webp" alt="Baby Romper">
+            </div>
+            <a href="https://www.habeshazon.com/baby-wear">Shop baby clothing</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Luxury Watches</h3>
+            <div class="image-grid">
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\Luxury Watches\gold.webp" alt="Gold Watch">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Gold Watches</p>
+                </div>
+                <div>
+                    <img src="C:\Users\LENOVO\Desktop\online bussiness\Luxury Watches\class.jpeg" alt="Two-tone Watch">
+                    <p style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Classic Watches</p>
+                </div>
+            </div>
+            <a href="https://www.habeshazon.com/watches" style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Shop all watches</a>
+        </div>
+
+        <div class="section-card">
+            <h3 style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Luxury Fragrances</h3>
+            <div class="single-image">
+                <img src="C:\Users\LENOVO\Desktop\online bussiness\Fragrances\OIP.webp" alt="Dolce & Gabbana Light Blue">
+            </div>
+            <a href="https://www.habeshazon.com/fragrances" style="font-size: 20px; color: shineblack; font-family: 
+'Playfair Display', serif; font-weight: 300; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);">Explore fragrances</a>
+        </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.banner-slide');
+        const totalSlides = slides.length;
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        }
+
+        // Initialize slider
+        showSlide(currentSlide);
+        setInterval(nextSlide, 5000); // Change slide every 5 seconds
+    </script>
+
+</body>
+</html>
